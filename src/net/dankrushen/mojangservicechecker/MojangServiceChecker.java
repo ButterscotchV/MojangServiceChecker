@@ -1,4 +1,4 @@
-package com.dankrushen.mojangservicechecker;
+package net.dankrushen.mojangservicechecker;
 
 import java.awt.EventQueue;
 
