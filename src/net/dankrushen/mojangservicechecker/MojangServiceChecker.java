@@ -23,6 +23,7 @@ import javax.swing.event.ChangeListener;
 import javax.swing.event.ChangeEvent;
 import javax.swing.SwingConstants;
 import javax.swing.JPanel;
+import java.awt.Color;
 
 public class MojangServiceChecker{
 
@@ -281,6 +282,7 @@ public class MojangServiceChecker{
 		frmMinecraftServiceChecker = new JFrame();
 		frmMinecraftServiceChecker.setTitle("Settings");
 		frmMinecraftServiceChecker.setResizable(false);
+		frmMinecraftServiceChecker.getContentPane().setBackground(Color.WHITE);
 		frmMinecraftServiceChecker.setBounds(100, 100, 450, 150);
 		frmMinecraftServiceChecker.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmMinecraftServiceChecker.getContentPane().setLayout(null);
@@ -384,6 +386,7 @@ public class MojangServiceChecker{
 	}
 	private void initialize() {
 		frmMinecraftServiceChecker = new JFrame();
+		frmMinecraftServiceChecker.getContentPane().setBackground(Color.WHITE);
 		frmMinecraftServiceChecker.setTitle("Minecraft Service Checker");
 		frmMinecraftServiceChecker.setBounds(100, 100, 450, 258);
 		frmMinecraftServiceChecker.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -403,6 +406,7 @@ public class MojangServiceChecker{
 		
 		JPanel panel = new JPanel();
 		panel.setBounds(10, 187, 424, 38);
+		panel.setBackground(Color.WHITE);
 		frmMinecraftServiceChecker.getContentPane().add(panel);
 		JButton btnNewButton = new JButton("Settings");
 		panel.add(btnNewButton);
